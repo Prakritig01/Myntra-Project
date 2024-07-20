@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif;
+}
+header{
+    background-color: bisque;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    margin-left: 4%;
+}
+nav_container {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+  
+}
+.nav_container .link{
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 17px 28px;
+    letter-spacing: .3px;
+    color: #282c3f;
+
+}
+.nav_container a sup{
+    color: #ff3f6c;
+}
+
+
